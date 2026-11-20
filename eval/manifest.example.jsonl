@@ -1,0 +1,9 @@
+# BharatVoice evaluation manifest (example).
+# Copy to eval/manifest.jsonl and point each line at real audio you recorded,
+# with an accurate reference transcript. One JSON object per line.
+{"audio": "eval/audio/ta_en_01.wav", "reference": "bro inniku college ku late ah varuven because traffic romba jasthi", "language": "ta-IN", "mode": "transcribe", "tags": ["code-mixed", "ta-en", "quiet"]}
+{"audio": "eval/audio/ta_only_01.wav", "reference": "naalaikku naan college ku varuven", "language": "ta-IN", "mode": "transcribe", "tags": ["monolingual", "ta", "quiet"]}
+{"audio": "eval/audio/hi_en_01.wav", "reference": "kal meeting hai presentation ready karna hai deadline friday tak", "language": "hi-IN", "mode": "codemix", "tags": ["code-mixed", "hi-en", "classroom"]}
+{"audio": "eval/audio/te_en_01.wav", "reference": "repo ki pull request pampinchu tests pass ayyayi", "language": "te-IN", "mode": "codemix", "tags": ["code-mixed", "te-en", "technical"]}
+{"audio": "eval/audio/en_only_01.wav", "reference": "submit the report before friday", "language": "en-IN", "mode": "transcribe", "tags": ["monolingual", "en", "quiet"]}
+{"audio": "eval/audio/noisy_road_01.wav", "reference": "i will call you after the class", "language": "en-IN", "mode": "transcribe", "tags": ["noisy", "road"]}
